@@ -13,7 +13,7 @@ derive-new = "0.5.6"
 derive_builder = "0.7.0"
 serde = { version = "1.0", features = ["derive"] }
 log = "*"
-amethyst = { git = "https://github.com/amethyst/amethyst", branch = "master", features = ["nightly"] }
+amethyst = { git = "https://github.com/amethyst/amethyst", branch = "master" }
 
 #sertmp = ser branch + ncollide3d override to changes branch
 nphysics3d = { git = "https://github.com/jojolepro/nphysics", branch = "sertmp", features = ["serde"] }
