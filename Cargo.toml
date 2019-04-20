@@ -18,4 +18,4 @@ amethyst = { git = "https://github.com/jojolepro/amethyst", branch = "hoppinworl
 #sertmp = ser branch + ncollide3d override to changes branch
 nphysics3d = { git = "https://github.com/jojolepro/nphysics", branch = "sertmp", features = ["serde"] }
 ncollide3d = { git = "https://github.com/rustsim/ncollide", branch = "master" }
-nalgebra = "0.17"
+nalgebra = "0.18"
